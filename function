@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Location Validation</title>
+	<script>
+	function askLocation(location)
+{
+	if(userLocation=="WIT"){
+		window.alert("Welcome wit student");
+		}
+	
+	else{
+		window.alert("Website restricted to WIT Students ONLY");
+		}
+	
+}
+
+</script>
+</head>
+<body>
+
+<script>
+var userLocation=window.prompt("Enter your location")
+askLocation(userLocation);
+
+
+</script>
+
+</body>
+
+</html>
